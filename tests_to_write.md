@@ -25,19 +25,20 @@
 
 ##(venv_3.8.5) sujala@Sujalas-MBP Rady_SDET_Technical % pytest
 ```
+(venv_3.8.5) sujala@Sujalas-MBP Rady_SDET_Technical % pytest
 ===================================== test session starts =====================================
 platform darwin -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
 rootdir: /Users/sujala/Rady_SDET_Technical
-collected 7 items                                                                             
+collected 6 items                                                                             
 
-tests/functional/test_item.py ..FF.                                                     [ 71%]
+tests/functional/test_item.py ..FF                                                      [ 66%]
 
 tests/unit/test_item_model.py ..                                                        [100%]
 
 ========================================== FAILURES ===========================================
 
-=================================== short test summary info ===================================
+==================================== short test summary info ===================================
 FAILED tests/functional/test_item.py::test_delete_non_existing_item_id - assert 200 == 404
 FAILED tests/functional/test_item.py::test_get_non_existing_item_id - AttributeError: 'NoneT...
-================================= 2 failed, 5 passed in 0.31s =================================
+================================= 2 failed, 4 passed in 0.36s =================================
 ```

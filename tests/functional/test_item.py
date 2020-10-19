@@ -77,15 +77,3 @@ def test_get_non_existing_item_id(test_client, init_database):
                                 follow_redirects=True)
     #Expected 404 
     assert response.status_code == 404
-
-def test_get_with_request_body(test_client, init_database):
-    """
-    GIVEN a Flask application configured for testing
-    WHEN the '/'  is posted to (GET)
-    THEN check the response is valid 
-    """
-    response = test_client.get('/',
-                                json={'item_id':'Flask1', 'item_name':'FlaskIsSuper','item_description':"Flask-SQLAlchemy"},
-                                follow_redirects=True)
-    #Expected
-    assert response.status_code == 405
