@@ -19,7 +19,7 @@ def post():
 		new_item = Item(**kwargs)
 
 		# Add the new Item model object and commit.
-		#db.create_all()
+		db.create_all()
 		db.session.add(new_item)
 		db.session.commit()
 

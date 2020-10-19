@@ -1,5 +1,5 @@
 """
-This file (test_item_model.py) contains the unit tests for the models.py file.
+This file (test_item_model.py) contains the unit tests for the item_model.py file.
 """
 from project.item_model import Item
 

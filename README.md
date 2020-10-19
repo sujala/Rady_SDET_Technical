@@ -20,7 +20,7 @@ git clone git@github.com:sujala/Rady_SDET_Technical.git```
 Create a new virtual environment:
 
 ```sh
-$ cd flask_app
+$ cd Rady_SDET_Technical
 $ python3 -m venv venv
 ```
 
