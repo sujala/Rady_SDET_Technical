@@ -15,7 +15,7 @@ In the top-level directory:
 Pull down the source code from this Github repository:
 
 ```sh
-git clone ```
+git clone git@github.com:sujala/Rady_SDET_Technical.git```
 
 Create a new virtual environment:
 
